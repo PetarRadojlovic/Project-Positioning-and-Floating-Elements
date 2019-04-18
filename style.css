@@ -1,0 +1,527 @@
+body {
+	background-color: #fff;
+	color: #333;
+	font-family: nyt-franklin,helvetica,arial,sans-serif;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+/* Typography */
+.copyright-holder {
+	color: #888;
+	font-size: 13px;
+	line-height: 1.25rem;
+}
+
+p {
+	color: #333;
+	font-family: nyt-franklin,helvetica,arial,sans-serif;
+	font-size: 1.1875rem;
+	line-height: 1.8125rem;
+	margin: 10px 0 10px 0;
+}
+
+figure p {
+	font-size: 0.9375;
+	line-height: 1.25rem;
+	color: #666;
+	font-family: nyt-imperial,georgia,'times new roman',times,serif;
+	text-align: left;
+}
+
+h1 {
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 100;
+	margin: 0;
+	color: #121212;
+}
+
+.sub-header h2 {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: #121212;
+    margin: 10px 0;
+}
+
+.sub-header span {
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+
+h3 {
+	color: #000;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.theory-text,
+.text-small {
+	line-height: 1.125rem;
+	color: #666;
+	font-size: 13px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.text-small-span {
+	color: #333;
+	font-size: 13px;
+}
+
+.content-footer-links {
+	text-decoration: none;
+	color: #999;
+}
+
+.fontent-footer-links-hover {
+	border-bottom: 1px solid #999;
+}
+
+.nav-header-link {
+	color: rgb(98, 136, 165);
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 11px;
+	font-family: nyt-imperial,georgia,'times new roman',times,serif;
+	text-decoration: none;
+}
+
+.footer-nav-title {
+	color: rgb(51, 51, 51);
+	font-size: 13px;
+	font-weight: 700;
+	font-family: nyt-franklin;
+	height: 25px;
+	line-height: 15px;
+	margin: 0px;
+	text-transform: uppercase;
+	width: 150px;
+}
+
+.footer-nav-link {
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	font-family: nyt-franklin;
+	text-decoration: none;
+	text-transform: capitalize;
+	width: 150px;
+	font-size: 14px;
+	font-weight: 500;
+	height: 20px;
+	line-height: 16px;
+}
+
+.strong {
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	height: 25px;
+	font-weight: 700;
+}
+
+.small {
+	color: rgb(0, 0, 0);
+	font-size: 11px;
+	font-weight: 500;
+	height: 23px;
+	line-height: 21px;
+}
+
+.footer-nav-link:hoover {
+	text-decoration: underline;
+}
+
+/* Main Header */
+
+.main-header {
+	width: 100%;
+	height: 45px;
+	top: 0;
+	color: #333;
+	background-color: #fff;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e2e2e2;
+	position: fixed;
+	overflow: hidden;
+	z-index: 3;
+}
+
+.main-header div {
+	display: inline-block;
+	vertical-align: center;
+}
+
+/* Main header left menu */
+
+.left-menu {
+	width: 16%;
+	height: 44px;
+	display: inline-block;
+	top: 0;
+	left: 60px;
+	background-color: #fff;
+	position: absolute;
+	text-align: left;
+}
+
+.left-menu a {
+	font-size: 12px;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 19px;
+	text-decoration: none;
+	color: black;
+}
+
+.left-menu a:hover {
+	border-bottom: 1px solid black;
+}
+
+.left-menu-item {
+	width: 150px;
+	height: 33px;
+	background-color: #fff;
+	margin: -3px 10px 0 10px;
+	position: absolute;
+}
+
+.left-menu div {
+	padding: 13px 0 0 10px;
+	cursor: pointer;
+}
+
+/* Main header right menu */
+
+.right-menu {
+	width: 16%;
+	height: 44px;
+    background-color: #fff;
+    float: right;
+    left: 20px;
+}
+
+/* Main header logo */
+
+.center {
+	width: 63%;
+	height: 44px;
+	margin-left: 18%;
+	background-color: #fff;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Main header button style */
+
+.btn {
+	color: #fff;
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 0.9125rem;
+	text-transform: uppercase;
+	background-color: #6288a5;
+	text-align: center;
+	border-radius: 3px;
+	padding: 9px 12px 8px 12px;
+	margin: 4px 0 3px 5px;
+	cursor: pointer;
+	border: 1px solid #326891;
+}
+
+/* Main Content */
+
+/* Sub header icons */
+
+.sub-header {
+	height: 90px;
+}
+
+.social img {
+	width: 15px;
+	height: 15px;
+	margin: 8px 8px;
+}
+
+.social-icons {
+	height: 40px;
+	background-color: #fff;
+}
+
+.social-icons .social {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.social-icons-left {
+	font-weight: 500;
+	color: #333;
+	font-size: 13px;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.social-icons-right {
+	height: 50px;
+	float: right;
+	background-color: #fff;
+	position: relative;
+}
+
+.right-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	display: inline-block;
+}
+
+.right-icon .comment-icon {
+	width: 30px;
+	height: 30px;
+	margin: 16px 0;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.social {
+	width: 30px;
+	height: 30px;
+	background-color: #eee;
+	border: 2px solid #eee;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+}
+
+.social:hover {
+	background-color: #fff;
+	border: 2px solid #eee;
+}
+
+/* Images */
+
+img {
+	max-width: 100%;
+}
+
+.image-main {
+	width: 100%;
+	height: auto;
+	min-width: 600px;
+	max-width: 1100px;
+	vertical-align: top;
+	grid-column: 1 / -1;
+	position: relative;
+	cursor: pointer;
+}
+
+.inflation-graff {
+	width: 850px;
+	height: 100%;
+	float: left;
+	display: block;
+}
+
+.infaltion-image {
+	width: 850px;
+	height: 100%;
+	float: left;
+	display: block;
+}
+
+.inflation-image {
+	width: 800px;
+	height: 650px;
+}
+
+.article-media {
+	width: 715px;
+	height: 415px;
+}
+
+.main-container-telescope img {
+	width: 715px;
+	height: 415px;
+	cursor: pointer;
+}
+
+/* Article */
+
+.post {
+	display: grid;
+	max-width: 1100px;
+	margin: 100px auto;
+	grid-gap: 10px 50px;
+	grid-template-columns: 3fr 12fr 3fr;
+}
+
+.post>* {
+	grid-column: 2 / -2;
+}
+
+.main-container-telescope {
+	width: 715px;
+	height: 415px;
+	margin: 0;
+	margin-bottom: 70px;
+}
+
+.image-main-container {
+	margin: 30px;
+	grid-column: 1 / -1;
+}
+
+/* Theory of Inflation graph */
+
+.theory-container {
+	width: 720px;
+	height: 750px;
+	margin: 0 auto;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.image-text {
+	width: 175px;
+	height: 175px;
+	position: relative;
+}
+
+.text-small {
+	width: 175px;
+	height: 175px;
+	position: absolute;
+	float: left;
+}
+
+.btn footer {
+	font-size: .8125rem;
+	font-weight: 600;
+	letter-spacing: .05rem;
+	line-height: 1.5rem;
+	padding: 5px 0;
+	text-transform: uppercase;
+	transform: background-color .6s ease;
+}
+
+/* Footer Nav */
+
+.footer-nav {
+	grid-column: 1 / -1;
+	max-width: 1100px;
+	height: 380px;
+	margin-top: 40px;
+	background-color: #fff;
+}
+
+.footer-nav:before {
+	border-bottom: 1px solid rgb(226, 226, 226);
+	border-top: 2px solid rgb(226, 226, 226);
+	content: "";
+	display: block;
+	height: 1px;
+	margin-top: 0px;
+}
+
+.footer-nav-header {
+	width: 100%;
+	height: 45px;
+	display: inline-block;
+	margin: 0;
+}
+
+.nav-header-left {
+	display: inline-block;
+	margin-left: -7px;
+}
+
+.nav-header-right {
+	float: left;
+	margin-left: -7px;
+}
+
+.footer-nav-wrapper {
+	width: 100%;
+	height: 329px;
+	background-color: #fff;
+}
+
+.footer-nav-content {
+	margin-top: 10px;
+	min-width: 600px;
+	display: flex;
+}
+
+.footer-section {
+	flex: 1 1 0%;
+	display: block;
+}
+
+.footer-link-wrapper {
+	list-style: outside none none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.subsrcibe-area {
+	border-left: 1px solid rgb(226, 226, 226);
+	padding-left: 15px;
+}
+
+.alternate-links {
+	border-bottom: 1px solid rgb(226, 226, 226);
+	padding: 10px 0px 5px;
+}
+
+li img {
+	width: 15px;
+	height: 15px;
+}
+
+/* Footer */
+
+footer {
+	margin: 0 auto;
+	max-width: 1100px;
+	height: 50px;
+	background-color: #fff;
+	font-size: 11px;
+	text-align: center;
+	padding: 0 3% 9px;
+}
+
+.main-footer-wrapper {
+	border-top: 1px solid rgb(235, 235, 235);
+	padding-top: 9px;
+	background-color: #fff;
+	display: block;
+}
+
+.main-footer-nav {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 15px;
+	padding: 0;
+}
+
+.main-footer-link {
+	color: rgb(153, 153, 153);
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	padding: 10px 7px 0 7px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.main-footer-link:hoover {
+	border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+.main-footer-nav li {
+	display: inline-block;
+}
